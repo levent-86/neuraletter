@@ -1,7 +1,7 @@
 import { SiGithub, SiLinkedin, SiN8N } from 'react-icons/si';
 import { IoShareSocial } from 'react-icons/io5';
 import { ThemeSwitcher } from './ThemeSwitcher';
-import { Outlet } from 'react-router-dom';
+import { Link, Outlet } from 'react-router-dom';
 
 export const Navbar = () => {
   return (
@@ -35,37 +35,37 @@ export const Navbar = () => {
               className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-62 p-2 shadow"
             >
               <li>
-                <a className="link link-hover" href="/">
+                <Link className="link link-hover" to="/">
                   Homepage
-                </a>
+                </Link>
               </li>
               <li>
                 <details>
                   <summary className="link link-hover">How to</summary>
                   <ul className="p-2 bg-base-100 z-1">
                     <li>
-                      <a className="link link-hover" href="/scrap">
+                      <Link className="link link-hover" to="/scrap">
                         NeuraLetter Suite: Scrap
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a className="link link-hover" href="/workflow">
+                      <Link className="link link-hover" to="/workflow">
                         NeuraLetter Suite: Workflow
-                      </a>
+                      </Link>
                     </li>
                   </ul>
                 </details>
               </li>
               <li>
-                <a className="link link-hover" href="/faq">
+                <Link className="link link-hover" to="/faq">
                   F. A. Q.
-                </a>
+                </Link>
               </li>
             </ul>
           </div>
-          <a href="/" className="btn btn-ghost text-xl">
+          <Link to="/" className="btn btn-ghost text-xl">
             NeuraLetter Suite
-          </a>
+          </Link>
         </div>
 
         <div className="navbar-end">
@@ -100,7 +100,7 @@ export const Navbar = () => {
               </li>
               <li>
                 <a
-                  href="https://github.com/levent-86"
+                  href="https://github.com/levent-86/scrap"
                   className="btn btn-ghost btn-circle"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -134,7 +134,7 @@ export const Navbar = () => {
             </li>
             <li>
               <a
-                href="https://github.com/levent-86"
+                href="https://github.com/levent-86/scrap"
                 className="btn btn-ghost btn-circle"
                 target="_blank"
                 rel="noopener noreferrer"
