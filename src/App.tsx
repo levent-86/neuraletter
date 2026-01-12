@@ -9,7 +9,7 @@ import { Workflow } from './components/HowTo/Workflow';
 function App() {
   return (
     <>
-      <Router>
+      <Router basename="/neuraletter">
         <Routes>
           <Route element={<Navbar />}>
             <Route index element={<Home />} />
