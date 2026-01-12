@@ -18,7 +18,7 @@ export const Home = () => {
       name: 'NeuraLetter Suite: Scrap',
       website:
         'https://chromewebstore.google.com/detail/neuraletter-suite-scrap/njdhnogadpoafagjibjcopbngknjiikl?authuser=0&hl=tr',
-      picture: 'https://neuraletter.com/scscreen.png',
+      picture: '/scscreen.png',
       description:
         'Turn any website into a structured database without leaving your tab. Focused, keyboard-driven data collection.',
       buttonText: 'Add to Chrome',
@@ -28,7 +28,7 @@ export const Home = () => {
     {
       name: 'NeuraLetter Suite: Workflow',
       website: 'https://github.com/levent-86/neuraletter-suite-workflow',
-      picture: 'https://neuraletter.com/wfscreen.png',
+      picture: '/wfscreen.png',
       description:
         'Human-like AI outreach that stays out of spam folders. Smart scheduling powered by the Fisher-Yates algorithm.',
       buttonText: 'Get the Workflow',
