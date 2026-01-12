@@ -16,12 +16,12 @@ export const Hero = () => {
             <figure className="p-5">
               <div className="relative w-full aspect-video rounded-xl overflow-hidden border border-base-content/20">
                 <img
-                  src={`${process.env.PUBLIC_URL}/scscreen.png`}
+                  src={`${import.meta.env.BASE_URL}/scscreen.png`}
                   alt="Scrap"
                   className="absolute h-full"
                 />
                 <img
-                  src={`${process.env.PUBLIC_URL}/wfscreen.png`}
+                  src={`${import.meta.env.BASE_URL}/wfscreen.png`}
                   alt="Workflow"
                   className="absolute h-full [mask-image:linear-gradient(65deg,black_48%,transparent_52%)]"
                 />

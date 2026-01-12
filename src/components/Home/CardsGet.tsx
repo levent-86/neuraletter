@@ -19,7 +19,7 @@ export const CardsGet: React.FC<SoftwaresTypes> = (props) => {
           <figure className="p-5">
             <div className="aspect-video rounded-xl border border-base-content/20">
               <img
-                src={`${process.env.PUBLIC_URL + props.picture}`}
+                src={`${import.meta.env.BASE_URL + props.picture}`}
                 alt={props.name}
                 className="rounded-xl h-full w-full"
               />
