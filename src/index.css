@@ -1,10 +1,9 @@
-@import "tailwindcss";
+@import 'tailwindcss';
 @plugin '@tailwindcss/typography';
-@plugin "daisyui";
 
 /* Fonts */
 :root {
-  font-family: "lato";
+  font-family: 'lato';
   padding: 0.5em;
 }
 
@@ -14,12 +13,10 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "roboto";
+  font-family: 'roboto';
 }
 
 /* Theme */
 @plugin "daisyui" {
-  themes:
-    sunset --default,
-    silk --prefersdark;
+  themes: silk --default;
 }

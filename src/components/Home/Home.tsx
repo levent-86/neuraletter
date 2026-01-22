@@ -1,3 +1,4 @@
+import { useEffect } from 'react';
 import { Footer } from '../Footer/Footer';
 import { CardsGet } from './CardsGet';
 import { Hero } from './Hero';
@@ -13,6 +14,12 @@ interface SoftwaresTypes {
 }
 
 export const Home = () => {
+  useEffect(() => {
+    if (localStorage.getItem('is_dark')) {
+      localStorage.removeItem('is_dark');
+    }
+  }, []);
+
   const softwares: SoftwaresTypes[] = [
     {
       name: 'NeuraLetter Suite: Scrap',
