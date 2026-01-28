@@ -9,7 +9,7 @@ export const Navbar = () => {
         <div className="navbar-start text-xl">NeuraLetter Suite</div>
 
         <div className="navbar-end">
-          <div className="dropdown">
+          <div className="dropdown dropdown-end">
             <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
               <IoShareSocial className="text-lg" />
             </div>
